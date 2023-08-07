@@ -1,0 +1,91 @@
+body{
+  background-color: #26474E ;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.4rem;
+  line-height: 2rem;
+  color: white;
+}
+
+.container {
+  width: 1000px;   /* Définit la largeur */
+  margin: 0 auto; /* Définit automatiquement les marges à gauche/droite */
+}
+
+.card{
+  border-radius: 10px;
+  border: 1px solid white;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+
+
+div{
+
+  text-align: center;
+  /* display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap; */
+
+}
+
+p{
+  text-align: justify;
+}
+
+button{
+  text-align: center;
+}
+
+h1 h2{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.8rem;
+  line-height: 2rem;
+}
+
+img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+
+}
+
+a{
+  color: #5d7052;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+  background-color: rgba(240, 240, 240, 0.8);
+}
+
+footer i{
+  width: 50px;
+  height: 50px;
+}
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
